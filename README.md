@@ -8,7 +8,7 @@ this is an essay for spring
 
 spring对于java从业者来说应该很熟悉，本项目主要分享个人对于spring的一些理解以及应用
 
-- [什么是spring]()
+- [什么是spring](/document/spring简述.md)
 - [Spring IOC/DI]()
 - [Spring Bean配置及管理]()
 - [Spring IOC的原理与简单实现]()
