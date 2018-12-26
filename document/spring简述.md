@@ -15,7 +15,7 @@ Spring框架由七大模块组成，本文主要介绍Spring的几大核心（`I
 作为一款优秀的开源框架，Spring具有如下极大特点：
 
 1. 轻量
-    
+
     Spring作为一款开源框架，其代码量上非常小，需要引用的完整jar包大小仅仅1M左右，核心jar包更是只有几百K
 
 2. 控制反转
@@ -76,4 +76,4 @@ Spring框架由七大模块组成，本文主要介绍Spring的几大核心（`I
 
 ## 下一篇
 
-[Spring IOC/DI]()
+[Spring IOC/DI](/document/spring控制反转与依赖注入.md)
