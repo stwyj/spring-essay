@@ -40,7 +40,7 @@ Spring框架由七大模块组成，本文主要介绍Spring的几大核心（`I
 
 ## 七大模块
 
-![spring架构图](https://github.com/shiwei175hll/spring-essay/blob/master/document/img/spring.png)
+![spring架构图](https://github.com/stwyj/spring-essay/blob/master/document/img/spring.png)
 
 简单画了一下Spring的基础架构图，Spring主要是由以上七大模块组成，下面对七大模块进行一下简单解释
 
