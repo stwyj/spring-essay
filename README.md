@@ -18,9 +18,9 @@ spring对于java从业者来说应该很熟悉，本项目主要分享个人对�
 
 ## 相关文章
 
-- [Java随笔](https://github.com/shiwei175hll/java-essay)
-- [SpringBoot应用与集成分析](https://github.com/shiwei175hll/springboot-essay)
-- [SpringCloud微服务架构](https://github.com/shiwei175hll/springcloud-essay)
+- [Java随笔](https://github.com/stwyj/java-essay)
+- [SpringBoot应用与集成分析](https://github.com/stwyj/springboot-essay)
+- [SpringCloud微服务架构](https://github.com/stwyj/springcloud-essay)
 
 ## 其他文章
 
