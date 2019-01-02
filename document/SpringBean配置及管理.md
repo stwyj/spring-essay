@@ -11,7 +11,7 @@ Spring使用BeanFactory来实例化、配置以及管理Bean的生命周期。
 ### 代码
 
 ```java
-String FACTORY_BEAN_PREFIX = "&";
+    String FACTORY_BEAN_PREFIX = "&";
 
     Object getBean(String name) throws BeansException;
 
@@ -177,7 +177,7 @@ ApplicationContext context = new ClassPathXmlApplicationContext("classpath:appli
 </servlet>
 ```
 
-或者
+以上方式的默认配置文件位置为:`/WEB-INF/applicationContext.xml`，我们也可以在web.xml中手动配置，配置如下：
 
 ```xml
 <context-param>
