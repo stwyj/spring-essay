@@ -10,7 +10,7 @@ spring对于java从业者来说应该很熟悉，本项目主要分享个人对�
 
 - [什么是spring](/document/spring简述.md)
 - [Spring IOC/DI](/document/spring控制反转与依赖注入.md)
-- [Spring Bean配置及管理]()
+- [Spring Bean配置及管理](/document/SpringBean配置及管理.md)
 - [Spring IOC的原理与简单实现]()
 - [Spring AOP]()
 - [AOP使用示例与场景]()

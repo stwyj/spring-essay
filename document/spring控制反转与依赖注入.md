@@ -46,4 +46,4 @@ DI英文Dependency Injection缩写，意为依赖注入，对象请求容易内�
 
 ## 下一篇
 
-[Spring Bean配置及管理]()
+[Spring Bean配置及管理](/document/SpringBean配置及管理.md)
