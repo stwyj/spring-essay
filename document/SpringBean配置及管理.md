@@ -294,4 +294,4 @@ public class DemoFactory {
 
 ## 下一篇
 
-[Spring IOC的原理与简单实现]()
+[Spring IOC的原理与简单实现](/document/SpringIOC的原理与简单实现.md)
