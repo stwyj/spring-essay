@@ -21,12 +21,4 @@ spring对于java从业者来说应该很熟悉，本项目主要分享个人对�
 - [Java随笔](https://github.com/stwyj/java-essay)
 - [SpringBoot应用与集成分析](https://github.com/stwyj/springboot-essay)
 - [SpringCloud微服务架构](https://github.com/stwyj/springcloud-essay)
-
-## 其他文章
-
-- [SpringBoot工程快速创建]()
-- [Lombok插件使用]()
-- [Markdown使用与图表绘制]()
-- [JMater进行压力测试]()
-- [docker安装使用]()
-- **`持续更新中`**
+- [开发随笔](https://github.com/stwyj/develop-essay)
