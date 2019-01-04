@@ -44,18 +44,10 @@
 
 &ensp;&ensp;&ensp;&ensp;那么IOC是如何通过反射以及工厂模式来实现的呢？下面我们来简单的实现一下最基础的IOC
 
-## BeanFactory（PersonFactory + DemoContainer）
+## BeanFactory
 
 ### 代码
 
-PersonFactory.java
-
-```java
-public interface PersonFactory {
-
-   public void introduce();
-}
-```
 
 DemoContainer.java
 
@@ -143,6 +135,15 @@ public class DemoContainer{
 ```
 
 ## Bean（Lady、Gentleman）
+
+PersonFactory.java
+
+```java
+public interface PersonFactory {
+
+   public void introduce();
+}
+```
 
 Lady.java
 
@@ -244,6 +245,8 @@ hello,i'm Jim
 &ensp;&ensp;&ensp;&ensp;在实际的使用过程中，我们也仅仅只是需要在配置文件中将beanId与class等等进行配置，来提高实例化对象时的灵活性和可维护性。
 
 &ensp;&ensp;&ensp;&ensp;在Spring IOC容器中，我们可以同时可以把容器看成是一个工厂，在配置文件中我们定义好需要生产的对象，然后利用反射机制，根据配置文件中给出的类名生成相应的对象，`根据bean的Id或者name将bean反转注入到该对象被需求的地方`。
+
+**注意：** 上述例子中并没有对scope进行讲解，scope为Singleton时，Bean在容器初始化时创建，以后每次调用都会从缓存（内存）中读取，对于scope为prototype时，每次调用都会重新去实例化该bean对象。
 
 ## 上一篇
 
